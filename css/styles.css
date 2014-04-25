@@ -113,19 +113,19 @@ button{
 
 }
 
-#excited{
+#excited, .excited{
 	background-color:#D99C2C;
 }
 
-#joyous{
+#joyous, .joyous{
 	background-color: #FFCC00;
 }
 
-#inspired{
+#inspired, .joyous{
 	background-color:#FFDE5C;
 }
 
-#serene{
+#serene, .serene{
 	background-color: #FFF5CC;
 }
 
