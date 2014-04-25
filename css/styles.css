@@ -105,10 +105,9 @@ h4{
 
 
 /*FORM AND INPUT ELEMENTS*/
-input, textarea {
-	width: 90%;
-	height: 30px;
-	margin: 15px 0;
+input, textarea, form {
+/*	height: 30px;
+	margin: 15px 0;*/
 	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-size: 1em;
 	color: #535353;

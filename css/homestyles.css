@@ -31,7 +31,7 @@ body{
 
 .inputhome {
 	font-size:0.8em;
-	color: #cccccc;
+	color: #535353;
 	text-align: center;
 	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif;
 	margin:5% 0;
@@ -103,7 +103,7 @@ button a{
 
 .title-screen{
 /*	background-image: url(images/background_intro.png);*/
-	margin-top: 30%;
+	margin-top: 55%;
 	text-align: center;
 }
 

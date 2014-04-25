@@ -2,6 +2,7 @@
 
 <html lang="en">
 <head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 	<title>Guess what?!</title>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
@@ -34,15 +35,26 @@
 				<!-- INSTRUCTIONS  -->
 				<br>
 				<p>Share a memory with us — an image, a video or a few sentences of text to describe what connects you to this place.</p>
-				<!-- BUTTONS -->
+				<br>
+				<!-- FORM -->
+				<article>
+				      <p>We're finding your location: <span id="status">checking...</span></p>
+				</article>
 
-
+				<!-- FORM -->
 				<form action="/newPost.php" method="POST" enctype="application/x-www-form-urlencoded">
+					
+					<br>
 	   
 				    <input type="radio" name="feeling" value="1">Serene</input>
-
+				    <br>
+				    <br>
 				    <input type="radio" name="feeling" value="2">Inspired</input>
+				    <br>
+				    <br>
 				    <input type="radio" name="feeling" value="3">Joyful</input>
+				    <br>
+				    <br>
 				    <input type="radio" name="feeling" value="4">Excited</input>
 
 
@@ -50,13 +62,24 @@
 				    <div class="input-box"><input onfocus="this.value=''" type="text" class="fieldset"  name="place" value="Place Name" size="40" maxlength="100"></input></div>
 
 				    <input onfocus="this.value=''" type="text" class="fieldset"  name="links" value="Add a link" size="40" maxlength="100"></input>
+				    <br>
+				    <br>
 				    <textarea name="body_text" rows="5" cols="20">Your comments</textarea>
 
 					<input  id="login-signup-bt" type="hidden" name="lat"></input>
+					<br>
+				    <br>
 
 					<input  id="login-signup-bt" type="hidden" name="lon" ></input>
+					<br>
+				    <br>
+
 				    <input  id="login-signup-bt" type="submit" name="login" value="Submit"></input>
+					
+
+
 				    <input type="hidden" name ="submit_check" value = "2"></input>
+
 
 				</form>
 			</div>
@@ -66,5 +89,7 @@
 
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 <script type="text/javascript" src="js/thirdparty/responsivemobilemenu.js"></script>
+<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false"></script>
+<script src="js/map.js"></script>
 </body>
 </html>
