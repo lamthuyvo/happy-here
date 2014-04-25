@@ -59,28 +59,25 @@ table {
 /*TEXTS*/
 	
 p {
-	font-family: Impact, Helvetica, Arial, sans-serif;
-	font-size: 2em;
-	text-transform: uppercase;
-	color: #444444;
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 1em;
+	color: #FFFFFF;
 
 }
 
 h1 {
-	font-family: Impact, Helvetica, Arial, sans-serif;
+	font-family: 'Lobster', Helvetica, Arial, sans-serif;
 	font-size: 4em;
-	text-transform: uppercase;
-	color: #444444;
-	text-shadow: 3px 3px 0px #eee, 5px 5px 0px #444444;
+	color: #FFFFFF;
+	/*text-shadow: 3px 3px 0px #eee, 5px 5px 0px #444444;*/
 	margin: 0 0 20px 0;
 }
 
 h2 {
-	font-family: Impact, Helvetica, Arial, sans-serif;
+	font-family: 'Lobster', Helvetica, Arial, sans-serif;
 	font-size: 2em;
-	text-transform: uppercase;
-	color: #444444;
-	text-shadow: 3px 3px 0px #eee, 5px 5px 0px #444444;
+	color: #FFFFFF;
+/*	text-shadow: 3px 3px 0px #eee, 5px 5px 0px #444444;*/
 	margin: 0 0 20px 0;
 	text-align: center;
 }
@@ -96,8 +93,7 @@ input {
 }
 
 button{
-	font-family: Impact, Helvetica, Arial, sans-serif;
-	text-transform: uppercase;
+	font-family: 'Lobster', Helvetica, Arial, sans-serif;
 	font-size: 2em;
 	color: #444444;
 	border-radius: 2px;
@@ -106,20 +102,18 @@ button{
 }
 
 button a{
-	font-family: Impact, Helvetica, Arial, sans-serif;
-	text-transform: uppercase;
+	font-family:'Lobster', Helvetica, Arial, sans-serif;
 	color: #444444;
 	text-decoration: none;
 }
 
 img{
-	padding:0 2%;
+	padding:0 2% 0 2%;
 	width:100%;
 }
 
 /* STRUCTURE AND DIV ELEMENTS */
 #wrapper{
-	margin-top: 50px;
 }
 
 .content-container {
@@ -133,6 +127,7 @@ img{
 }
 
 .title-screen{
+	background-image: url(images/background_intro.png);
 	margin-top: 30%;
 	text-align: center;
 }
