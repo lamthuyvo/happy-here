@@ -38,7 +38,7 @@ function success(position) {
   var mapcanvas = document.createElement('div');
   mapcanvas.id = 'mapcanvas';
   mapcanvas.style.height = '250px';
-  mapcanvas.style.width = '100%';
+  mapcanvas.style.width = '320px';
     
   document.querySelector('article').appendChild(mapcanvas);
   
