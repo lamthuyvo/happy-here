@@ -55,6 +55,8 @@ table {
 
 /* Your styles go here */
 
+
+/*TEXTS*/
 	
 p {
 	font-family: Impact, Helvetica, Arial, sans-serif;
@@ -73,10 +75,21 @@ h1 {
 	margin: 0 0 20px 0;
 }
 
+h2 {
+	font-family: Impact, Helvetica, Arial, sans-serif;
+	font-size: 2em;
+	text-transform: uppercase;
+	color: #444444;
+	text-shadow: 3px 3px 0px #eee, 5px 5px 0px #444444;
+	margin: 0 0 20px 0;
+	text-align: center;
+}
+
 body{
 	background-color: #FFCC00;
 }
 
+/*FORM AND INPUT ELEMENTS*/
 input {
 	width: 200px;
 	height: 30px;
@@ -92,10 +105,36 @@ button{
 	margin-top: 20px;
 }
 
-.main {
-	position:fixed;
-	top:40%;
-	text-align: center;
+button a{
+	font-family: Impact, Helvetica, Arial, sans-serif;
+	text-transform: uppercase;
+	color: #444444;
+	text-decoration: none;
+}
+
+img{
+	padding:0 2%;
 	width:100%;
 }
+
+/* STRUCTURE AND DIV ELEMENTS */
+#wrapper{
+	margin-top: 50px;
+}
+
+.content-container {
+	position:relative;
+	width:100%;
+}
+
+.content{
+	position: absolute;
+	text-align: center;
+}
+
+.title-screen{
+	margin-top: 30%;
+	text-align: center;
+}
+
 	
