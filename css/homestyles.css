@@ -6,110 +6,47 @@
  *
  */
 
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
-}
-/* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
-}
-body {
-	line-height: 1;
-}
-ol, ul {
-	list-style: none;
-}
-blockquote, q {
-	quotes: none;
-}
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
-}
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
-}
 
 /* Happy Here Home */
 
 
-/*TEXTS*/
-	
-p {
-	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif;
-	font-size: 1em;
-	color: #535353;
-	line-height: 1.4em;
-
-}
-
-h1 {
-	font-family: 'Lobster', Helvetica, Arial, sans-serif;
-	font-size: 4em;
-	color: #535353;
-	/*text-shadow: 3px 3px 0px #eee, 5px 5px 0px #444444;*/
-	margin: 0 0 20px 0;
-}
-
-h2 {
-	font-family: 'Lobster', Helvetica, Arial, sans-serif;
-	font-size: 2em;
-	color: #CCCCCC;
-/*	text-shadow: 3px 3px 0px #eee, 5px 5px 0px #444444;*/
-	margin: 0 0 20px 0;
-	text-align: center;
-}
-
-h3{
-	font-family: 'Lobster', Helvetica, Arial, sans-serif;
-	font-size: 1.2em;
-	color: #535353;
-	line-height: 1.5em;
-	margin: 0 0 20px 0;
-	text-align: left;	
-}
 
 body{
-	background-color: #FFCC00;
+	background-color: #FFF;
 	background-image:url(../images/home.jpg);
 	background-repeat:no-repeat;
-	max-width: 320px;
+	background-attachment:fixed;
+	background-position:top; 
+	top:0;
+	max-width: 420px;
+	margin: 0 auto;
+
+
 
 }
 
 
 /*FORM AND INPUT ELEMENTS*/
 
-input {
-	width: 200px;
-	height: 30px;
-	margin: 5% 0;
-}
 
 .inputhome {
-font-size:12px;
-text-align: center;
-font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size:0.8em;
+	color: #cccccc;
+	text-align: center;
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	margin:5% 0;
+}
+
+.title-screen img{
+	position: fixed;
+	overflow:hidden;
+	z-index:-1; 
+  	top: 0; 
+  	left: 0; 
+	
+	/* Preserve aspet ratio */
+	min-width: 100%;
+
 }
 
 button{
@@ -145,15 +82,13 @@ button a{
 	text-decoration: none;
 }
 
-img{
-	padding:0 2% 0 2%;
-	width:100%;
-}
+
 
 /* STRUCTURE AND DIV ELEMENTS */
 
 #wrapper{
 	padding:50% 0 0 0;
+
 }
 
 .content-container {
@@ -167,30 +102,10 @@ img{
 }
 
 .title-screen{
-	background-image: url(images/background_intro.png);
+/*	background-image: url(images/background_intro.png);*/
 	margin-top: 30%;
 	text-align: center;
 }
 
-.story-box{
-	background-color: #FFFFFF;
-	margin: 10px 0;
-	padding: 20px;
-	border: solid 1px #ccc;
-}
-.story-box p{
-	color:#535353;
-}
 
-
-.place-box{
-	background-color: #FFFFFF;
-	margin: 10px 0;
-	padding: 20px;
-	border: solid 1px #ccc;
-}
-
-.place-box p{
-	color: #535353;
-}
 

@@ -36,6 +36,8 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
+	max-width:420px;
+	margin: 0 auto;
 }
 ol, ul {
 	list-style: none;
@@ -102,10 +104,6 @@ h4{
 }
 
 
-body{
-	/*background-color: #FFFFFF;*/
-}
-
 /*FORM AND INPUT ELEMENTS*/
 input, textarea {
 	width: 90%;
@@ -165,7 +163,10 @@ img{
 /* STRUCTURE AND DIV ELEMENTS */
 #wrapper{
 	margin: 10px 0;
-	padding: 10px
+	padding: 10px;
+	max-width: 420px;
+	position:relative;
+	margin: auto 0;
 }
 
 .content-container {
