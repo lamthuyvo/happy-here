@@ -5,13 +5,13 @@
 function initialize() {
   var mapOptions = {
     zoom: 14,
-    center: new google.maps.LatLng(40.7351,-74.0103295)
+    center: new google.maps.LatLng(40.666042,-73.962089)
   }
   var map = new google.maps.Map(document.getElementById('map-canvas'),
                                 mapOptions);
 
-  var image = 'http://50.6.193.137/marker_blue_40.png';
-  var myLatLng = new google.maps.LatLng(40.7351,-74.0103295);
+  var image = 'http://lamivo.com/tribeca/dot-2-small.png';
+  var myLatLng = new google.maps.LatLng(40.666042,-73.962089);
   var beachMarker = new google.maps.Marker({
       position: myLatLng,
       map: map,
