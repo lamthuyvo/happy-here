@@ -2,6 +2,7 @@
  * styles.css
  *
  * @author: rolandobrown (rolandobrown.com)
+* @team: Happy Here ( 
  *
  */
 
@@ -98,20 +99,27 @@ body{
 
 
 /*FORM AND INPUT ELEMENTS*/
+
 input {
 	width: 200px;
 	height: 30px;
-	margin: 10% 0;
+	margin: 5% 0;
+}
+
+.inputhome {
+font-size:12px;
+text-align: center;
+font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 button{
 	font-family: 'Lobster', Helvetica, Arial, sans-serif;
 	background-color:#D99C2C;
-	font-size: 2em;
+	font-size: 1.4em;
 	border-radius: 3px;
 	margin: auto 5%;
 /*	float:left;*/
-	width:50%;
+	width:30%;
 
 }
 
@@ -143,6 +151,7 @@ img{
 }
 
 /* STRUCTURE AND DIV ELEMENTS */
+
 #wrapper{
 	padding:50% 0 0 0;
 }
