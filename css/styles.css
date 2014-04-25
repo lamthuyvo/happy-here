@@ -92,6 +92,16 @@ h3{
 	text-align: left;	
 }
 
+h4{
+	font-family: 'Lobster', Helvetica, Arial, sans-serif;
+	font-size: 1.4em;
+	color: #535353;
+	line-height: 1.3em;
+	margin:15px 0 0 0 ;
+	text-align: center;	
+}
+
+
 body{
 	/*background-color: #FFFFFF;*/
 }
@@ -171,6 +181,11 @@ img{
 	color:#535353;
 }
 
+.story-box .icon img{
+	float:left;
+	width:5%;
+}
+
 
 .place-box{
 	background-color: #FFFFFF;
@@ -183,11 +198,23 @@ img{
 	color: #535353;
 }
 
+.emotion{
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 1em;
+	color: #cccccc;
+	line-height: 1.4em;
+	font-style: italic;
+	float:left;
 
+}
 
 html, body, #map-canvas {
 	height: 250px;
 	max-width: 480px;
-	margin: 0px;
+	margin: 10px 0;
 	padding: 10px
 }
+
+
+/* NAVIGATION */
+
