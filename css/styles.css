@@ -107,10 +107,22 @@ body{
 }
 
 /*FORM AND INPUT ELEMENTS*/
-input {
-	width: 200px;
+input, textarea {
+	width: 90%;
 	height: 30px;
-	margin: 10% 0;
+	margin: 15px 0;
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 1em;
+	color: #535353;
+	line-height: 1.4em;
+}
+
+.input-box{
+	margin:5% 0;
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 1em;
+	color: #535353;
+	line-height: 1.4em;
 }
 
 button{
@@ -152,7 +164,8 @@ img{
 
 /* STRUCTURE AND DIV ELEMENTS */
 #wrapper{
-
+	margin: 10px 0;
+	padding: 10px
 }
 
 .content-container {
@@ -208,7 +221,7 @@ img{
 
 }
 
-html, body, #map-canvas {
+#map-canvas {
 	height: 250px;
 	max-width: 480px;
 	margin: 10px 0;
