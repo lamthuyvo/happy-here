@@ -132,4 +132,11 @@ img{
 	text-align: center;
 }
 
-	
+
+
+html, body, #map-canvas {
+	height: 200px;
+	width: 500px;
+	margin: 0px;
+	padding: 0px
+}
