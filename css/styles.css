@@ -76,11 +76,11 @@ h1 {
 
 h2 {
 	font-family: 'Lobster', Helvetica, Arial, sans-serif;
-	font-size: 2em;
-	color: #535353;
+	font-size: 1em;
+	color: #FFFFFF;
 /*	text-shadow: 3px 3px 0px #eee, 5px 5px 0px #444444;*/
 	margin: 0 0 20px 0;
-	text-align: center;
+	text-align: left;
 }
 
 h3{
@@ -93,22 +93,24 @@ h3{
 }
 
 body{
-	background-color: #FFFFFF;
+	/*background-color: #FFFFFF;*/
 }
 
 /*FORM AND INPUT ELEMENTS*/
 input {
 	width: 200px;
 	height: 30px;
+	margin: 10% 0;
 }
 
 button{
 	font-family: 'Lobster', Helvetica, Arial, sans-serif;
 	font-size: 2em;
 	border-radius: 3px;
-	margin-top: 20px;
-	float:left;
-	width:100%;
+	margin: auto 5%;
+/*	float:left;*/
+	width:50%;
+
 }
 
 #excited{
@@ -140,6 +142,7 @@ img{
 
 /* STRUCTURE AND DIV ELEMENTS */
 #wrapper{
+
 }
 
 .content-container {
