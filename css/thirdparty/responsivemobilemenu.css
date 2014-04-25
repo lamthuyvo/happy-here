@@ -17,11 +17,13 @@ License: CC BY 3.0 http://creativecommons.org/licenses/by/3.0/
 	padding:0px;
 	margin:0 auto !important;
 	text-align: center;
-	line-height:19px !important;
+	line-height:24px !important;
 }
 .rmm * {
 	-webkit-tap-highlight-color:transparent !important;
-	font-family:Arial;
+	font-family: 'Lobster', Helvetica, Arial, sans-serif;
+	color: #FFFFFF;
+	text-align: left;
 }
 .rmm a {
 	color:#ebebeb;
@@ -34,7 +36,7 @@ License: CC BY 3.0 http://creativecommons.org/licenses/by/3.0/
 .rmm ul {
 	display:block;
 	width:auto !important;
-	margin:0 auto !important;
+/*	margin:0 auto !important;*/
 	overflow:hidden;
 	list-style:none;
 }
@@ -71,7 +73,7 @@ License: CC BY 3.0 http://creativecommons.org/licenses/by/3.0/
 }
 .rmm .rmm-toggled ul li {
 	display:block;
-	margin:0 auto !important;
+	/*margin:0 auto !important;*/
 }
 
 
@@ -110,8 +112,8 @@ border-bottom-right-radius: 6px;*/
 .rmm.graphite .rmm-toggled {
 	width:100%;
 	background-color:#FFCC00;
-	min-height:36px;
-	border-radius:6px;
+	min-height:45px;
+	/*border-radius:6px;*/
 }
 .rmm.graphite .rmm-toggled-controls {
 	display:block;
@@ -119,7 +121,7 @@ border-bottom-right-radius: 6px;*/
 	color:white;
 	text-align:left;
 	position:relative;
-	background-image:url('../rmm-img/graphite-menu-bg.png');
+/*	background-image:url('../rmm-img/graphite-menu-bg.png');*/
 	background-repeat:repeat-x;
 	border-radius:6px;
 }
@@ -262,7 +264,7 @@ border-bottom-right-radius: 5px;
 
 
 
-/* MINIMAL STYLE */
+/*/* MINIMAL STYLE */
 
 .rmm.minimal a {
 	color:#333333;
@@ -319,3 +321,4 @@ border-bottom-right-radius: 5px;
 .rmm.minimal .rmm-toggled ul li:first-child a {
 	border-top:1px solid #dedede;
 }
+*/

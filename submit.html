@@ -27,15 +27,40 @@
         </ul>
     </div>
 	
-	<div class="main">
-		<h2>Happy Places Around You</h2>
-		<!-- INSTRUCTIONS  -->
-		<p>Rate a place by how it makes you feel</p>
-		<!-- BUTTONS -->
-		<button type="button" id="excited"><a href="map.html">excited</a></button>
-		<button type="button" id="joyous"><a href="map.html">joyous</a></button>
-		<button type="button" id="inspired"><a href="map.html">inspired</a></button>
-		<button type="button" id="serene"><a href="map.html">serene</a></button>
+	<div id="wrapper">
+		<div class="content-container">
+			<div class="content"> 
+				<h4>Describe your happy:</h4>
+				<!-- INSTRUCTIONS  -->
+				<br>
+				<p>Share a memory with us — an image, a video or a few sentences of text to describe what connects you to this place.</p>
+				<!-- BUTTONS -->
+
+
+				<form action="/newPost.php" method="POST" enctype="application/x-www-form-urlencoded">
+	   
+				    <input type="radio" name="feeling" value="1">Serene</input>
+
+				    <input type="radio" name="feeling" value="2">Inspired</input>
+				    <input type="radio" name="feeling" value="3">Joyful</input>
+				    <input type="radio" name="feeling" value="4">Excited</input>
+
+
+
+				    <div class="input-box"><input onfocus="this.value=''" type="text" class="fieldset"  name="place" value="Place Name" size="40" maxlength="100"></input></div>
+
+				    <input onfocus="this.value=''" type="text" class="fieldset"  name="links" value="Add a link" size="40" maxlength="100"></input>
+				    <textarea name="body_text" rows="5" cols="20">Your comments</textarea>
+
+					<input  id="login-signup-bt" type="hidden" name="lat"></input>
+
+					<input  id="login-signup-bt" type="hidden" name="lon" ></input>
+				    <input  id="login-signup-bt" type="submit" name="login" value="Submit"></input>
+				    <input type="hidden" name ="submit_check" value = "2"></input>
+
+				</form>
+			</div>
+		</div>
 	</div>
 	
 
